@@ -9,6 +9,7 @@ node default {
                   'nc',
                   'screen',
                   'strace',
+                  'sysstat',
                   'tree',
                 ],
   }
