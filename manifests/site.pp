@@ -11,6 +11,6 @@ node default {
                   'strace',
                   'sysstat',
                   'tree',
-                ],
+    ],
   }
 }
