@@ -3,8 +3,12 @@ learnpuppet-tdd-vagrant
 
 Manage Vagrant VM used by [LearnPuppet.com](http://learnpuppet.com) for TDD with Puppet tutorials.
 
-Usage
-===
+## Prerequisites: Keep guest additions up to date
+
+`vagrant plugin install vagrant-vbguest`
+
+## Usage
+
 `git clone https://github.com/ghoneycutt/learnpuppet-tdd-vagrant`
 
 `cd learnpuppet-tdd-vagrant`
@@ -12,10 +16,6 @@ Usage
 `vagrant up`
 
 `vagrant ssh`
-
-## Keep guest additions up to date
-
-`vagrant plugin install vagrant-vbguest`
 
 
 ## What, no git?
