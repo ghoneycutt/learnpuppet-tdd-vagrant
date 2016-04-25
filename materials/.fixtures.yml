@@ -1,0 +1,13 @@
+fixtures:
+  repositories:
+    stdlib:
+      repo: 'https://github.com/puppetlabs/puppetlabs-stdlib.git'
+      ref: '4.6.0'
+    common:
+      repo: 'https://github.com/ghoneycutt/puppet-module-common.git'
+      ref: 'v1.4.1'
+    firewall:
+      repo: 'https://github.com/puppetlabs/puppetlabs-firewall.git'
+      ref: '0.2.1'
+  symlinks:
+    ssh: "#{source_dir}"
